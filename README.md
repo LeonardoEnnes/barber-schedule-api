@@ -43,7 +43,7 @@ A API estará disponível em: http://localhost:8080/swagger-ui/index.html
 #### Executando os Testes
 Para garantir a integridade do código, rode os testes automatizados em ambiente de memória (H2):
 ```bash
-clean test
+mvn clean test
 ```
 
 ### Rotas Disponíveis
