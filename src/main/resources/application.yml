@@ -1,0 +1,21 @@
+﻿server:
+  port: 8080
+
+spring:
+  application:
+    name: barber-schedule-api
+
+  datasource:
+    # Note que trocamos 'localhost' por 'db'
+    url: jdbc:postgresql://db:5432/barber_db
+    username: postgres
+    password: sua_senha_aqui
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
