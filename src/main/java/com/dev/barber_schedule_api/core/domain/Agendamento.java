@@ -27,6 +27,20 @@ public class Agendamento {
         }
     }
 
+    public void cancelar() {
+        if (this.status == StatusAgendamento.FINALIZADO) {
+            throw new IllegalStateException("Não é possível cancelar um agendamento já finalizado.");
+        }
+        this.status = StatusAgendamento.CANCELADO;
+    }
+
+    public void finalizar() {
+        if (this.status == StatusAgendamento.CANCELADO) {
+            throw new IllegalStateException("Não é possível finalizar um agendamento que foi cancelado.");
+        }
+        this.status = StatusAgendamento.FINALIZADO;
+    }
+
     public UUID getId() { return id; }
     public Cliente getCliente() { return cliente; }
     public Prestador getPrestador() { return prestador; }

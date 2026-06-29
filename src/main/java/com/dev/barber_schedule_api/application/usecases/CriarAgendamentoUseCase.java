@@ -13,7 +13,6 @@ public class CriarAgendamentoUseCase {
 
     private final AgendamentoRepositoryPort agendamentoRepository;
 
-
     public Agendamento executar(Cliente cliente, Prestador prestador, Instant inicio, Instant fim) {
         if (agendamentoRepository.existeConflitoDeHorario(prestador.getId(), inicio, fim)) {
             throw new IllegalArgumentException("O prestador já possui um agendamento neste horário.");

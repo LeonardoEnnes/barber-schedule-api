@@ -1,5 +1,7 @@
 package com.dev.barber_schedule_api.infrastructure.adapters.out.persistence;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -13,4 +15,6 @@ public interface AgendamentoJpaRepository extends JpaRepository<AgendamentoEntit
     boolean existeConflito(@Param("prestadorId") UUID prestadorId,
                            @Param("inicio") Instant inicio,
                            @Param("fim") Instant fim);
+
+    Page<AgendamentoEntity> findByPrestadorId(UUID prestadorId, Pageable pageable);
 }
