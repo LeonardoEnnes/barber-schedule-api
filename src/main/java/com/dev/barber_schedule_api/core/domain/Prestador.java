@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.core.domain;
+package com.dev.barber_schedule_api.core.domain;
 
 import java.util.UUID;
 

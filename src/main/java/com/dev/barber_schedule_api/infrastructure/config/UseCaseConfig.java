@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.infrastructure.config;
+package com.dev.barber_schedule_api.infrastructure.config;
 
 import com.dev.barber_schedule_api.application.ports.out.AgendamentoRepositoryPort;
 import com.dev.barber_schedule_api.application.usecases.CriarAgendamentoUseCase;

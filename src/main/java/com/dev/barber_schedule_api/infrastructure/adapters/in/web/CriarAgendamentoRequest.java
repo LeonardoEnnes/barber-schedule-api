@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.infrastructure.adapters.in.web;
+package com.dev.barber_schedule_api.infrastructure.adapters.in.web;
 
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotNull;

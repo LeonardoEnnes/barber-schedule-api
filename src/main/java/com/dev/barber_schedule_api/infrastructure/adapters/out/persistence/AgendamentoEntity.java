@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.infrastructure.adapters.out.persistence;
+package com.dev.barber_schedule_api.infrastructure.adapters.out.persistence;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

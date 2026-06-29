@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.infrastructure.exception;
+package com.dev.barber_schedule_api.infrastructure.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

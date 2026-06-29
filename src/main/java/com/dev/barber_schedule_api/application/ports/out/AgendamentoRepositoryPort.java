@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.application.ports.out;
+package com.dev.barber_schedule_api.application.ports.out;
 
 import com.dev.barber_schedule_api.core.domain.Agendamento;
 import java.time.Instant;

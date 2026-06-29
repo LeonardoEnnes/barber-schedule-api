@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.infrastructure.adapters.in.web;
+package com.dev.barber_schedule_api.infrastructure.adapters.in.web;
 
 import com.dev.barber_schedule_api.application.usecases.CriarAgendamentoUseCase;
 import com.dev.barber_schedule_api.core.domain.Agendamento;

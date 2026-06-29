@@ -1,4 +1,4 @@
-﻿package com.dev.barber_schedule_api.infrastructure.adapters.out.persistence;
+package com.dev.barber_schedule_api.infrastructure.adapters.out.persistence;
 
 import com.dev.barber_schedule_api.application.ports.out.AgendamentoRepositoryPort;
 import com.dev.barber_schedule_api.core.domain.Agendamento;
